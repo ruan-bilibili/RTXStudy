@@ -118,7 +118,7 @@ if selected == "首页":
             st.markdown(
                 """
                 <div style="text-align: center;">
-                    <a href="https://mp.weixin.qq.com/s?__biz=MzkzNDU0MjQ2NA==&mid=2247483698&idx=1&sn=6cbff36d7a90f0e1167e124ef878ed64&chksm=c2baecddf5cd65cbee95cff57e8cde7ece4a3e2b5ae9ee8753dc734bb21c034df78ea7474d61&payreadticket=HFvebtT2QhZ1v1DjXr_YI3np4FLZlHEdPcu95bc4N7cU1v-N966gfjrCAHdlWEfr1DnJLho#rd" target="_blank">
+                    <a href="https://mp.weixin.qq.com/s/HZ0yeNR9tt2cmiQwMY4ryw?payreadticket=HPIMr8zEnyx32qYUkImwhVFcuMI0kIXiTxATxY2syY5WkL-bAdd84i_MEvrC_gkRT1KHMdw" target="_blank">
                         <img src="data:image/png;base64,{}" alt="第一张图片" style="width:100%; max-width:300px;"/>
                     </a>
                     <p style="margin-top: 10px; font-size: 28px; color: #000000;">25考研英语1大作文模板</p>
