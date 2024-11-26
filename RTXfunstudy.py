@@ -208,10 +208,11 @@ elif selected == "题库/模板":
         col1, col2, col3 = st.columns(3)
         with col1:
             clickable_image("Image/fm1.png", "https://mp.weixin.qq.com/s/HZ0yeNR9tt2cmiQwMY4ryw?payreadticket=HPIMr8zEnyx32qYUkImwhVFcuMI0kIXiTxATxY2syY5WkL-bAdd84i_MEvrC_gkRT1KHMdw", "25英语1大作文模板点击购买")
+            clickable_image("Image/fm4.png", "https://mp.weixin.qq.com/s/cKP0qESla_5lA1qu4IT_Hw?payreadticket=HLTBG6hqy7iTDbiDIjoPDGBQJqfV_JIN0ZbLKjwPe6O6fDdgdtchel3cGrsNiqiZdOZj3Lo", "往年模板")
         with col2:
             clickable_image("Image/fm2.png", "https://mp.weixin.qq.com/s/3cDPZh4fo03jumTke10trQ?payreadticket=HGrjpfu1eo-DL4tAlY5j8BarutizwojU9f3J0bBIDr-sY7fmUD0Nj9F8AM6rgRtv4ay3amQ", "25英语2大作文模板点击购买")
-        #with col3:
-            #clickable_image("Image/3.png", "https://mp.weixin.qq.com/s?__biz=MzkzNDU0MjQ2NA==&mid=2247483698&idx=1&sn=6cbff36d7a90f0e1167e124ef878ed64&chksm=c2baecddf5cd65cbee95cff57e8cde7ece4a3e2b5ae9ee8753dc734bb21c034df78ea7474d61&payreadticket=HFvebtT2QhZ1v1DjXr_YI3np4FLZlHEdPcu95bc4N7cU1v-N966gfjrCAHdlWEfr1DnJLho#rd", "图片 3")
+        with col3:
+            clickable_image("Image/fm3.png", "https://mp.weixin.qq.com/s/FnQukbaUVoQ57uzGNZ_xgQ?payreadticket=HIBTkh6BLsdFGdAGhpDpHpQHbkbhYKoPB8oAw-FkUsTmXvW1q0VHYAbrqVqVmrRByAdGwnw", "往年模板")
     
     centered_content(templates_content)
 
