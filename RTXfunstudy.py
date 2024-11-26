@@ -82,7 +82,7 @@ if selected == "首页":
     #sidebar_info("首页", "这是阮同学的网站首页，以后都在这个网站发布学习资料啦！")
     with st.sidebar:
         st.title("首页介绍")
-        st.write("这是阮同学的网站首页，以后都在这个网站发布学习资料啦！") 
+        st.write("这是阮同学的网站首页，快收藏好，以后学习资料与资源都在这个网站发布哦！") 
         st.image("Image/gzh.jpg", caption="扫码关注阮同学的公众号")  
         st.markdown(
             """
