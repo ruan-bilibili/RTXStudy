@@ -135,7 +135,7 @@ if selected == "首页":
             st.markdown(
                 """
                 <div style="text-align: left;">
-                    <h2 style="color: #000000;">产品介绍</h2>
+                    <h2 style="color: #000000;">模板介绍</h2>
                     <p style="font-size: 16px; color: #333333;">
                         本模板专为25考研英语1大作文设计，帮助考生快速掌握高分写作技巧。
                         点击左侧图片购买，获取更多详细内容。
@@ -178,7 +178,7 @@ if selected == "首页":
             st.markdown(
                 """
                 <div style="text-align: left;">
-                    <h2 style="color: #000000;">产品介绍</h2>
+                    <h2 style="color: #000000;">模板介绍</h2>
                     <p style="font-size: 16px; color: #333333;">
                         本模板专为25考研英语2大作文设计，帮助考生快速掌握高分写作技巧。
                         点击左侧图片购买，获取更多详细内容。
@@ -201,10 +201,10 @@ if selected == "首页":
 
 # 题库/模板
 elif selected == "题库/模板":
-    sidebar_info("题库/模板", "这是题库/模板页面，用于展示题库或模板的内容，以图片的形式排列展示。")
+    #sidebar_info("题库/模板", "这是题库/模板页面，用于展示题库或模板的内容，以图片的形式排列展示。")
     
     def templates_content():
-        st.write("这里展示题库/模板内容，图片分三列展示。")
+        #st.write("这里展示题库/模板内容，图片分三列展示。")
         col1, col2, col3 = st.columns(3)
         with col1:
             clickable_image("Image/fm1.png", "https://mp.weixin.qq.com/s/HZ0yeNR9tt2cmiQwMY4ryw?payreadticket=HPIMr8zEnyx32qYUkImwhVFcuMI0kIXiTxATxY2syY5WkL-bAdd84i_MEvrC_gkRT1KHMdw", "图片 1")
@@ -217,20 +217,20 @@ elif selected == "题库/模板":
 
 # 课程
 elif selected == "课程":
-    sidebar_info("课程", "这是课程页面，包含课程描述和介绍内容。")
+    #sidebar_info("课程", "这是课程页面，包含课程描述和介绍内容。")
     
     def courses_content():
-        st.write("这里是课程页面，暂时仅有一段文字描述。")
+        #st.write("这里是课程页面，暂时仅有一段文字描述。")
         st.write("课程内容即将上线，敬请期待！")
     
     centered_content(courses_content)
 
 # 会员
 elif selected == "会员":
-    sidebar_info("会员", "这是会员页面，展示会员功能介绍。")
+    #sidebar_info("会员", "这是会员页面，展示会员功能介绍。")
     
     def members_content():
-        st.write("这里是会员页面，暂时仅有一段文字描述。")
+        #st.write("这里是会员页面，暂时仅有一段文字描述。")
         st.write("会员功能即将上线，敬请期待！")
     
     centered_content(members_content)
