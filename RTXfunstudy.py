@@ -118,7 +118,7 @@ if selected == "首页":
             st.markdown(
                 """
                 <div style="text-align: center;">
-                    <a href="https://mp.weixin.qq.com/s/HZ0yeNR9tt2cmiQwMY4ryw?payreadticket=HPIMr8zEnyx32qYUkImwhVFcuMI0kIXiTxATxY2syY5WkL-bAdd84i_MEvrC_gkRT1KHMdw" target="_blank">
+                    <a href="https://mp.weixin.qq.com/s/Fxr5LsJiIJDkA9NZT74VcQ?payreadticket=HEVgrUy_o3gBj7eEakaNtEVLOwlxVABwJTMEaYx7885AZQuii1Ev3jZdm4ri2QKJL5kijqY" target="_blank">
                         <img src="data:image/png;base64,{}" alt="第一张图片" style="width:100%; max-width:300px;"/>
                     </a>
                     <p style="margin-top: 10px; font-size: 28px; color: #000000;">25考研英语1大作文模板</p>
@@ -162,7 +162,7 @@ if selected == "首页":
             st.markdown(
                 """
                 <div style="text-align: center;">
-                    <a href="https://mp.weixin.qq.com/s/3cDPZh4fo03jumTke10trQ?payreadticket=HGrjpfu1eo-DL4tAlY5j8BarutizwojU9f3J0bBIDr-sY7fmUD0Nj9F8AM6rgRtv4ay3amQ" target="_blank">
+                    <a href="https://mp.weixin.qq.com/s/6ssqlx_HsF1u0MSXPMX2gA?payreadticket=HM6ey_m4Q0n0_w27PY_l5HYio3cDioLOAtuz1wlzDq2tkHTN0F4jkRnm91ofeKNZc0_kadk" target="_blank">
                         <img src="data:image/png;base64,{}" alt="第一张图片" style="width:100%; max-width:300px;"/>
                     </a>
                     <p style="margin-top: 10px; font-size: 28px; color: #000000;">25考研英语2大作文模板</p>
@@ -207,10 +207,10 @@ elif selected == "题库/模板":
         #st.write("这里展示题库/模板内容，图片分三列展示。")
         col1, col2, col3 = st.columns(3)
         with col1:
-            clickable_image("Image/fm1.png", "https://mp.weixin.qq.com/s/HZ0yeNR9tt2cmiQwMY4ryw?payreadticket=HPIMr8zEnyx32qYUkImwhVFcuMI0kIXiTxATxY2syY5WkL-bAdd84i_MEvrC_gkRT1KHMdw", "25英语1大作文模板点击购买")
+            clickable_image("Image/fm1.png", "https://mp.weixin.qq.com/s/Fxr5LsJiIJDkA9NZT74VcQ?payreadticket=HEVgrUy_o3gBj7eEakaNtEVLOwlxVABwJTMEaYx7885AZQuii1Ev3jZdm4ri2QKJL5kijqY", "25英语1大作文模板点击购买")
             clickable_image("Image/fm4.png", "https://mp.weixin.qq.com/s/cKP0qESla_5lA1qu4IT_Hw?payreadticket=HLTBG6hqy7iTDbiDIjoPDGBQJqfV_JIN0ZbLKjwPe6O6fDdgdtchel3cGrsNiqiZdOZj3Lo", "往年模板")
         with col2:
-            clickable_image("Image/fm2.png", "https://mp.weixin.qq.com/s/3cDPZh4fo03jumTke10trQ?payreadticket=HGrjpfu1eo-DL4tAlY5j8BarutizwojU9f3J0bBIDr-sY7fmUD0Nj9F8AM6rgRtv4ay3amQ", "25英语2大作文模板点击购买")
+            clickable_image("Image/fm2.png", "https://mp.weixin.qq.com/s/6ssqlx_HsF1u0MSXPMX2gA?payreadticket=HM6ey_m4Q0n0_w27PY_l5HYio3cDioLOAtuz1wlzDq2tkHTN0F4jkRnm91ofeKNZc0_kadk", "25英语2大作文模板点击购买")
         with col3:
             clickable_image("Image/fm3.png", "https://mp.weixin.qq.com/s/FnQukbaUVoQ57uzGNZ_xgQ?payreadticket=HIBTkh6BLsdFGdAGhpDpHpQHbkbhYKoPB8oAw-FkUsTmXvW1q0VHYAbrqVqVmrRByAdGwnw", "往年模板")
     
